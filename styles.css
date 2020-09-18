@@ -1,0 +1,129 @@
+
+header{
+    background-image: url(../site/images/background4.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+ul li{
+display: inline;
+}
+ul li a{
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.2s;
+}
+a:hover{
+    color: #255784;
+    background-color:#2196f3 ;
+    box-shadow: 0 0 10px #2196;
+}
+.menu{
+    max-width: 1100px;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero {
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    height: calc(100vh - 100px);
+    align-items: center;
+}
+
+.banner{
+    color: royalblue;
+}
+.logo img{
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   transition: width 2s;
+}
+
+
+.isopic img{
+    width: 300px;
+}
+.content{
+    width: 1100px;
+}
+.container{
+    background-image: url(../site/images/1920x1080-light-blue-solid-color-background.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.box{
+    width: 300px;
+    height: 100px;
+    background-color: royalblue;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    box-shadow: 20px 20px 5
+    0px #999;
+}
+
+.masonry-container{
+    max-width: 1100px;
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}
+
+.part-3{
+    background-image: url(../site/images/back3.jpg);
+    height: 150vh;
+    background-size: cover;
+    background-position: center;    
+}
+    .step{
+        display: block;
+        font-weight: 500;
+        margin-left: 40px;
+        font-family: sans-serif;
+    }
+    .step-2{
+        display: block;
+        font-size: 60px;
+        margin-left: 40px;
+        font-family: sans-serif;
+        }
+    .step-3{
+        display: block;
+        font-weight: 500;
+        margin-left: 40px;
+        font-family: sans-serif;
+    }
+.misopic img{
+    width: 300px;
+}
+
+
